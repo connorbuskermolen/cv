@@ -20,6 +20,7 @@
 
 <body>
 
+  <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="">CB</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,122 +30,137 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Education</a>
+          <a class="nav-link" href="#edu">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Work Experience</a>
+          <a class="nav-link" href="#exp">Work Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#pro">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Interests</a>
+          <a class="nav-link" href="#awrd">Awards</a>
         </li>
         <li class="nav-item">
-          <button type="button" class="btn btn-dark btn-outline-light nav-link">CONTACT</button>
+          <a href="#contact-me"><button type="button" class="btn btn-dark btn-outline-light nav-link">CONTACT</a></button>
         </li>
       </ul>
     </div>
   </nav>
 
+  <!-- Page Hero Image -->
   <section class="title">
     <div class="container-fluid">
       <h1>Connor Buskermolen</h1>
       <h3>Programmer/Student</h3>
       <div class="col-lg-6">
         <a class="btn btn-dark btn-outline-light btn-lg contact-btn" href="mailto:connorbuskermolen@outlook.com">CONTACT</a>
-        <button type="button" class="btn btn-dark btn-outline-light btn-lg resume-btn">RESUME</button>
+        <button type="button" class="btn btn-dark btn-outline-light btn-lg resume-btn"><a href="resources/MyResume.pdf">RESUME</a></button>
       </div>
     </div>
   </section>
 
-  <section class="education">
-    <h2>Education</h2>
-    <div class="ed-row">
-      <img class="qu-logo" src="https://www.queensu.ca/sites/default/files/assets/pages/QueensLogo_colour.png" alt="queensu logo">
-      <div class="education-description">
-        <h4>2016-Present</h4>
-        <h4>Computer Science</h4>
-        <h4>Psychology</h4>
+  <!-- Education Section -->
+  <span id="edu">
+    <section class="education">
+      <h2>Education</h2>
+      <div class="ed-row">
+        <img class="qu-logo" src="https://www.queensu.ca/sites/default/files/assets/pages/QueensLogo_colour.png" alt="queensu logo">
+        <div class="education-description">
+          <h4>2016-Present</h4>
+          <h4>Computer Science</h4>
+          <h4>Psychology</h4>
+        </div>
+        <p class="par">
+          I began my studies at Queen's University in the fall of 2016 with a major in Psychology before
+          changing my focus to a major in Computer Science with a Psychology minor.
+        </p>
       </div>
-      <p class="par">
-        I began my studies at Queen's University in the fall of 2016 with a major in Psychology before
-        changing my focus to a major in Computer Science with a Psychology minor.
-      </p>
-    </div>
-  </section>
+    </section>
+  </span>
 
   <hr>
 
-  <section class="work-experience">
-    <h2>Work Experience</h2>
-    <div class="work-row">
-      <img class="ct-logo" src="https://canadiantire.scene7.com/is/image/CanadianTire/CT2016_IconLogo_SmlKey?scl=1&fmt=png-alpha" alt="canadian tire logo">
-      <div class="work-description">
-        <h4>2015-2020</h4>
-        <h4>Sales Associate</h4>
-        <h4>Canadian Tire Bradford</h4>
+  <!-- Work Experience Section -->
+  <span id="exp">
+    <section class="work-experience">
+      <h2>Work Experience</h2>
+      <div class="work-row">
+        <img class="ct-logo" src="https://canadiantire.scene7.com/is/image/CanadianTire/CT2016_IconLogo_SmlKey?scl=1&fmt=png-alpha" alt="canadian tire logo">
+        <div class="work-description">
+          <h4>2015-2020</h4>
+          <h4>Sales Associate</h4>
+          <h4>Canadian Tire Bradford</h4>
+        </div>
+        <p class="par">
+          At Canadian Tire I played a fundamental role in customer satisfaction through aiding
+          in the design for store layout and outstanding customer engagement.
+        </p>
       </div>
-      <p class="par">
-        At Canadian Tire I played a fundamental role in customer satisfaction through aiding
-        it the design for store layout and outstanding customer engagement.
-      </p>
-    </div>
-  </section>
+    </section>
+  </span>
 
   <hr>
 
-  <section class="projects">
-    <h2>Projects</h2>
-    <div class="cisc-282">
-      <img class="bee-img" src="images/bee.png" alt="bee-img">
-      <h4>CISC 282 Website</h4>
-      <p class="par-projects">This website for was the fictional Department of Argiculture
-        at Queen's University.
-      </p>
-    </div>
-    <div class="cisc-332">
-      <img class="dog-img" src="images/dog.png" alt="dog-img">
-      <h4>CISC 332 Website</h4>
-      <p class="par-projects">This website was created to show off the database created
-        for an animal rescue tracker.</p>
-    </div>
-
-  </section>
-
-  <hr>
-
-  <section class="awards">
-    <h2>Awards</h2>
-    <div class="awards-row">
-      <img class=ofsaa-logo src="https://clarkofsaa.s3.ca-central-1.amazonaws.com/s3fs-public/ofsaalogo-nowordsunderneath2.png" alt="ofsaa-logo">
-      <h4>Colin Hood Award</h4>
-      <p class="par">
-        This award is given out to a student who throughout their high school
-        career demonstrated a commitment to the success of sport at their school
-        and within their Association.
-      </p>
-    </div>
-  </section>
+  <!-- Project Section -->
+  <span id="pro">
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="cisc-282">
+        <img class="bee-img" src="images/bee.png" alt="bee-img">
+        <h4>CISC 282 Website</h4>
+        <p class="par-projects">This website for was the fictional Department of Argiculture
+          at Queen's University.
+        </p>
+      </div>
+      <div class="cisc-332">
+        <img class="dog-img" src="images/dog.png" alt="dog-img">
+        <h4>CISC 332 Website</h4>
+        <p class="par-projects">This website was created to show off the database created
+          for an animal rescue tracker.</p>
+      </div>
+    </section>
+  </span>
 
   <hr>
 
-  <section class="contact">
-    <div class="container-fluid">
-      <h2>Get In Touch</h2>
-      <h4>I would love to hear from you!</h4>
-      <a href="mailto:connorbuskermolen@outlook.com" class="contact-me">CONTACT ME</a>
-    </div>
+  <!-- Award Section -->
+  <span id="awrd">
+    <section class="awards">
+      <h2>Awards</h2>
+      <div class="awards-row">
+        <img class=ofsaa-logo src="https://clarkofsaa.s3.ca-central-1.amazonaws.com/s3fs-public/ofsaalogo-nowordsunderneath2.png" alt="ofsaa-logo">
+        <h4><a class="colin-hood" href="https://www.ofsaa.on.ca/recognition/awards">Colin Hood Award</a></h4>
+        <p class="par">
+          This award is given out to a student who throughout their high school
+          career demonstrated a commitment to the success of sport at their school
+          and within their Association.
+        </p>
+      </div>
+    </section>
+  </span>
 
-  </section>
+  <hr>
 
+  <!-- Contact Section -->
+  <span id="contact-me">
+    <section class="contact">
+      <div class="container-fluid">
+        <h2>Get In Touch</h2>
+        <h4>I would love to hear from you!</h4>
+        <a href="mailto:connorbuskermolen@outlook.com" class="contact-me">CONTACT ME</a>
+      </div>
+    </section>
+  </span>
+
+  <!-- Footer/End of Page -->
   <footer>
     <div class="container-fluid">
       <div class="row">
         <span>
           <a class="footer-link" href="https://www.linkedin.com/in/connor-buskermolen-a84557174/"><img class="linkedin" src="images/social-media.png" /></a>
 
-          <a class="footer-link" href="https://twitter.com/"><img class="github" src="images/github.png" /></a>
+          <a class="footer-link" href="https://github.com/connorbuskermolen"><img class="github" src="images/github.png" /></a>
         </span>
       </div>
       <p>© 2020 Connor Buskermolen.</p>
