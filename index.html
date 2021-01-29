@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
   <title>Connor Buskermolen</title>
 
   <!-- Fonts -->
@@ -60,20 +61,24 @@
     </div>
   </section>
 
+<div class='page-content'>
   <!-- Education Section -->
   <span id="edu">
     <section class="education">
       <h2>Education</h2>
       <div class="ed-row">
-        <img class="qu-logo" src="https://www.queensu.ca/sites/default/files/assets/pages/QueensLogo_colour.png" alt="queensu logo">
-        <div class="education-description">
-          <h4>2016-Present</h4>
-          <h4>Computer Science</h4>
-          <h4>Psychology</h4>
-        </div>
+        <div class="ed-header">
+          <img class="qu-logo" src="https://www.queensu.ca/sites/default/files/assets/pages/QueensLogo_colour.png" alt="queensu logo">
+          <div class="education-description">
+            <h4>2016-Present</h4>
+            <h4>Computer Science</h4>
+            <h4>Psychology</h4>
+          </div>
+      </div>
         <p class="par">
-          I began my studies at Queen's University in the fall of 2016 with a major in Psychology before
-          changing my focus to a major in Computer Science with a Psychology minor.
+          I began my studies at Queen's University in the fall of 2016 majoring in Psychology before
+          making a late change in my third year to a major in Computer Science while keeping Psychology
+          as my minor.
         </p>
       </div>
     </section>
@@ -86,15 +91,21 @@
     <section class="work-experience">
       <h2>Work Experience</h2>
       <div class="work-row">
-        <img class="ct-logo" src="https://canadiantire.scene7.com/is/image/CanadianTire/CT2016_IconLogo_SmlKey?scl=1&fmt=png-alpha" alt="canadian tire logo">
-        <div class="work-description">
-          <h4>2015-2020</h4>
-          <h4>Sales Associate</h4>
-          <h4>Canadian Tire Bradford</h4>
+        <div class='exp-header'>
+          <img class="ct-logo" src="https://canadiantire.scene7.com/is/image/CanadianTire/CT2016_IconLogo_SmlKey?scl=1&fmt=png-alpha" alt="canadian tire logo">
+          <div class="work-description">
+            <h4>2015-2020</h4>
+            <h4>Sales Associate/Warehouse</h4>
+            <h4>Canadian Tire Bradford</h4>
+          </div>
         </div>
         <p class="par">
-          At Canadian Tire I played a fundamental role in customer satisfaction through aiding
-          in the design for store layout and outstanding customer engagement.
+          At Canadian Tire I started as a Sales Associate working in the Sports and Seasonal Departments. In my time as a Sales Associate
+          I performed the duties of making sure the shelves were stocked with product as well as made sure the department was maintained
+          and look presentable. I engaged with customers providing them with excellent service through the assessment of their needs as well
+          as suggesting further action to improve their experience. At this position I developed great communication skills working with both
+          customers and co-workers. I was then moved to the Warehouse where I mostly performed logistical duties, including working with
+          deliveries and auditing the store's merchandise.
         </p>
       </div>
     </section>
@@ -106,18 +117,34 @@
   <span id="pro">
     <section class="projects">
       <h2>Projects</h2>
-      <div class="cisc-282">
-        <img class="bee-img" src="images/bee.png" alt="bee-img">
-        <h4>CISC 282 Website</h4>
-        <p class="par-projects">This website for was the fictional Department of Argiculture
-          at Queen's University.
-        </p>
+      <div class="pro-left">
+        <div class="pro-header">
+          <img class="f1-icon" src="images/f1-logo.png" alt="f1-logo">
+        <h4>Formula 1 Fan-Made Website</h4>
+        </div>
+        <p class="par-projects">
+          This ongoing project was started out of my love for Formula 1 as well as a way to build on my development skills.
+          At the moment the website holds some general information about drivers and some statistcs on the sport, with more
+          content continuously being added. I mainly used the React framework to devlop this website and used Saas for any styles
+          and animations. For statistical visualizations I have used Tableau Public to generate worksheets and dashboards as a fun 
+          way to to view historical stats. You can visit my website at 
+        <a id='website' href='https://f1-pro.herokuapp.com/'>https://f1-pro.herokuapp.com/</a>
+          and check it out for yourself! Any source code can be found at my Github page, the link is on the bottom of this site.
+      </p>
       </div>
-      <div class="cisc-332">
-        <img class="dog-img" src="images/dog.png" alt="dog-img">
+      <div class="pro-right">
+        <div class="pro-header">
+          <img class="dog-img" src="images/puppy.svg" alt="dog-img">
         <h4>CISC 332 Website</h4>
-        <p class="par-projects">This website was created to show off the database created
-          for an animal rescue tracker.</p>
+        </div>
+        <p class="par-projects">
+          This website was created for a school project in a Database Management course. The goal of the project 
+          was to create a simple website for an animal rescue tracker. The bulk of the project was creating the 
+          database starting with the schema. It then progressed forward to building the actual database and 
+          populating it with data. This was done through MySQL using the MariaDB software. Once the database 
+          was created, a simple front-end site was made using HTML and CSS to show off the project, connecting 
+          the site to the database with PHP.
+        </p>
       </div>
     </section>
   </span>
@@ -129,8 +156,10 @@
     <section class="awards">
       <h2>Awards</h2>
       <div class="awards-row">
-        <img class=ofsaa-logo src="https://clarkofsaa.s3.ca-central-1.amazonaws.com/s3fs-public/ofsaalogo-nowordsunderneath2.png" alt="ofsaa-logo">
-        <h4><a class="colin-hood" href="https://www.ofsaa.on.ca/recognition/awards">Colin Hood Award</a></h4>
+        <div class="awards-header">
+          <img class="ofsaa-logo" src="https://clarkofsaa.s3.ca-central-1.amazonaws.com/s3fs-public/ofsaalogo-nowordsunderneath2.png" alt="ofsaa-logo">
+          <h4><a class="colin-hood" href="https://www.ofsaa.on.ca/recognition/awards">Colin Hood Award</a></h4>
+        </div>
         <p class="par">
           This award is given out to a student who throughout their high school
           career demonstrated a commitment to the success of sport at their school
@@ -152,27 +181,18 @@
       </div>
     </section>
   </span>
+</div>
 
   <!-- Footer/End of Page -->
   <footer>
     <div class="container-fluid">
-      <div class="row">
-        <span>
-          <a class="footer-link" href="https://www.linkedin.com/in/connor-buskermolen-a84557174/"><img class="linkedin" src="images/social-media.png" /></a>
-
-          <a class="footer-link" href="https://github.com/connorbuskermolen"><img class="github" src="images/github.png" /></a>
+      <div class="media">
+        <span class='media-links'>
+          <a class="footer-link" href="https://www.linkedin.com/in/connor-buskermolen-a84557174/"><img class="linkedin" src="images/linkedin-icon.svg" /></a>
+          <a class="footer-link" href="https://github.com/connorbuskermolen"><img class="github" src="images/github-icon.svg" /></a>
         </span>
       </div>
       <p>© 2020 Connor Buskermolen.</p>
-    </div>
-    <div class="ref">
-      <p>*Bee icon made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
-      <p class="divide">|</p>
-      <p>*Dog icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
-      <p class="divide">|</p>
-      <p>*LinkedIn icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
-      <p class="divide">|</p>
-      <p>*Github icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
     </div>
   </footer>
 

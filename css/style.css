@@ -1,235 +1,419 @@
-a {
-  color: #fff;
-}
+/* 
+Scale site for up to 1200px of screen width
+*/
+@media (max-width: 2600px)  {
+  a {
+    color: #fff;
+  }
 
-.awards-row{
-  width:50%;
-  margin:auto;
-  text-align: left;
-}
+  .awards-header{
+    display: flex;
+    flex-direction: row;
+  }
 
-.bee-img{
-  width:20%;
-  float:left;
-}
+  .awards-row{
+    width:50%;
+    margin:auto;
+    text-align: left;
+  }
 
-body {
-   text-align: center;
-   margin:0;
-   font-family: 'Merriweather', serif;
-   color: #000;
-}
+  .f1-icon {
+    width:20%;
+    float:left;
+    margin: 10px;
+  }
 
-.cisc-282{
-  width: 50%;
-  margin:auto;
-  text-align: left;
-  padding-bottom:50px;
-  padding-top: 30px;
-}
+  body {
+    text-align: center;
+    margin:0;
+    font-family: 'Merriweather', serif;
+    color: #000;
+    width: 100%;
+  }
 
-.cisc-332{
-  width:50%;
-  margin:auto;
-  text-align:right;
-  padding-bottom:50px;
-}
+  .pro-left{
+    width: 50%;
+    text-align: left;
+    padding-bottom:50px;
+    padding-top: 30px;
+    margin: auto;
+  }
 
-.col-lg-6{
-  margin:auto;
-}
+  .pro-right{
+    width:50%;
+    margin:auto;
+    text-align:right;
+    padding-bottom:50px;
+  }
 
-.colin-hood {
-  color: #3282b8;
-}
+  .col-lg-6{
+    margin:auto;
+  }
 
-.contact-btn {
-  margin-top:50px;
-  margin-bottom: 20px;
-  margin-right:20px;
-}
+  .colin-hood {
+    color: #3282b8;
+  }
 
-.contact-me {
-  color: rgb(255, 255, 255);
-font-size: 16px;
-padding: 15px;
-text-shadow: 0px 1px 0px rgba(0, 0, 4, 0.8);
-/* -webkit-border-radius: 21.75674026076858px;
--moz-border-radius: 21.75674026076858px;
-border-radius: 21.75674026076858px; */
-border-radius: 12px;
-position: relative;
-top:40px;
-width:100%;
-background: rgb(20, 170, 177);
-background: -moz-linear-gradient(90deg, rgb(20, 170, 177) 31%, rgb(0, 114, 209) 92%);
-background: -webkit-linear-gradient(90deg, rgb(20, 170, 177) 31%, rgb(0, 114, 209) 92%);
-background: -o-linear-gradient(90deg, rgb(20, 170, 177) 31%, rgb(0, 114, 209) 92%);
-background: -ms-linear-gradient(90deg, rgb(20, 170, 177) 31%, rgb(0, 114, 209) 92%);
-background: linear-gradient(0deg, rgb(20, 170, 177) 31%, rgb(0, 114, 209) 92%);
--webkit-box-shadow: 0px 0px 5px rgba(0, 190, 255, 0.75);
--moz-box-shadow:    0px 0px 5px rgba(0, 190, 255, 0.75);
-box-shadow:         0px 0px 5px rgba(0, 190, 255, 0.75);
-}
+  .contact-btn {
+    margin-top:50px;
+    margin-bottom: 20px;
+    margin-right:20px;
+  }
 
-.ct-logo{
-  width:30%;
-  float:left;
-  margin-right:30px;
-  margin-bottom:30px;
+  .contact-me {
+    color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 15px;
+  text-shadow: 0px 1px 0px rgba(0, 0, 4, 0.8);
+  border-radius: 12px;
   position: relative;
-  bottom:30px;
-}
-
-.divide{
-  padding: 0 5px;
-}
-
-.dog-img{
-  width:20%;
-  float:right;
-  margin-left:20px;
-}
-
-.ed-row {
-  width:55%;
-  /* margin:auto; */
-  text-align:left;
-  margin:0 auto 0 auto;
-}
-
-.education-description{
+  top:40px;
   width:100%;
-  line-height: 1.5;
-  position: relative;
-  /* top:10px; */
+  background: rgb(20, 170, 177);
+  background: -moz-linear-gradient(90deg, rgb(20, 170, 177) 31%, rgb(0, 114, 209) 92%);
+  background: -webkit-linear-gradient(90deg, rgb(20, 170, 177) 31%, rgb(0, 114, 209) 92%);
+  background: -o-linear-gradient(90deg, rgb(20, 170, 177) 31%, rgb(0, 114, 209) 92%);
+  background: -ms-linear-gradient(90deg, rgb(20, 170, 177) 31%, rgb(0, 114, 209) 92%);
+  background: linear-gradient(0deg, rgb(20, 170, 177) 31%, rgb(0, 114, 209) 92%);
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 190, 255, 0.75);
+  -moz-box-shadow:    0px 0px 5px rgba(0, 190, 255, 0.75);
+  box-shadow:         0px 0px 5px rgba(0, 190, 255, 0.75);
+  }
+
+  .container-fluid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .ct-logo{
+    width:18%;
+    float:left;
+    margin-right:30px;
+    margin-bottom:30px;
+    position: relative;
+    bottom:30px;
+  }
+
+  .divide{
+    padding: 0 5px;
+  }
+
+  .dog-img{
+    width:18%;
+    float:right;
+    margin-left:20px;
+    background-color: rgb(51, 47, 248, .8);
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .ed-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .ed-row {
+    width:55%;
+    text-align:left;
+    margin:0 auto 0 auto;
+  }
+
+  .education-description{
+    width:100%;
+    line-height: 1;
+    position: relative;
+  }
+
+  .education, .work-experience,.projects, .awards, .contact{
+    padding: 50px;
+  }
+
+  footer {
+    margin-top: 50px;
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+  }
+
+  .github {
+    width:25%;
+    padding:5px;
+  }
+
+  hr {
+      display:block;
+      border:none;
+      color:white;
+      height:2px;
+      background:black;
+      background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(rgb(0, 114, 209)), to(#fff));
+  }
+
+  h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 3.5rem;
+    line-height: 2;
+  }
+
+  h2 {
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom:50px;
+    font-size: 2.8rem;
+    color: #3282b8;
+  }
+
+  h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5vw;
+    color: #fff;
+  }
+
+  h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3vw;
+    color: #3498db;
+  }
+
+  .linkedin {
+    width:25%;
+    padding:5px;
+  }
+
+  .media {
+    width:50%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .media-links {
+    text-align: center;
+  }
+
+  .ofsaa-logo {
+    width: 50%;
+    height: 100%;
+    padding-right: 15px;
+    padding-bottom: 10px;
+  }
+
+  .page-content {
+    padding: 0 10%;
+    width: 100%;
+  }
+
+  .par {
+    width:90%;
+    text-align: left;
+    clear:left;
+  }
+
+  .par-projects {
+    width:90%;
+    text-align: left;
+    padding-top: 10px;
+  }
+
+  .qu-logo{
+    width:25%;
+    float:left;
+    margin-right: 30px;
+    position: relative;
+    bottom:30px;
+  }
+
+  .ref {
+    text-align: right;
+    font-size: 0.5rem;
+    color:#fff;
+    display:flex;
+  }
+
+  .resume-btn {
+    margin-top:50px;
+    margin-bottom: 20px;
+    margin-left:20px;
+  }
+
+  .title {
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:150px 20px;
+    color: #fff;
+  }
+
+  #website {
+    color: black;
+  }
+  .work-description{
+    width:100%;
+  }
+
+  .work-row{
+    width:55%;
+    margin:auto;
+    text-align:left;
+    line-height: 2;
+  }
+
+  /* .work-experience, .awards {
+    background-color: #30475e;
+    color:#fff;
+    padding:100px 20px;
+  } */
 }
 
-.education, .work-experience,.projects, .awards, .contact{
-  padding: 50px;
+@media (max-width: 1400px) {
+
+  h4 {
+    font-size: 1.2rem;
+  }
+  /* Education */
+
+  .qu-logo {
+    width: 40%;
+    position:relative;
+    bottom: 10px;
+  }
+
+
+  /* Work Experience */
+  .ct-logo {
+    width:35%;
+  }
+
+  /* Projects */
+  .f1-icon {
+    width: 30%;
+  }
+
+  .dog-img {
+    width: 25%;;
+  }
+  /* Awards */
+  
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  .ofsaa-logo {
+    width: 50%;
+    height: 100%;
+    padding-right: 15px;
+  }
 }
 
-footer {
-  margin-top: 50px;
-  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: #fff;
+@media screen and (max-width: 700px) {
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .education, .work-experience, .projects, .awards, .contact {
+    padding: 10px;
+  }
+
+  .par {
+    width: 100%;
+  }
+
+  .col-lg-6 {
+    display:flex;
+    flex-direction: row;
+  }
+
+  /* Education Section */
+
+  .ed-row {
+    margin: 5px;
+    width: 100%;
+  }
+
+  .education-description, h4 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .qu-logo {
+    width: 60%;
+    position: relative;
+    bottom: 10px;
+    margin: 0;
+  }
+
+  /* Work Experience Section */
+  .work-row {
+    margin: 5px;
+    width: 100%;
+  }
+
+  .work-description, h4 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .ct-logo {
+    width: 40%;
+    position: relative;
+    bottom: 5px;
+    margin-right: 5px;
+  }
+  
+  .work-description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .exp-header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* Projects Section */
+
+  .pro-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .pro-left {
+    width: 100%;
+  }
+
+  .pro-right {
+    margin: 0;
+    width: 100%;
+  }
+
+  .projects, h2 {
+    padding-bottom: 20px;
+  }
+
+  .pro-header h4 {
+    font-size: 1.3rem;
+  }
+
+  /* Awards Section */
+
+    .awards-header {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .ofsaa-logo {
+      width: 40%;
+      height: 100%;
+    }
+
+    .awards-row {
+      margin: 5px;
+      width: 100%;
+    }
 }
-
-.github {
-  width:7%;
-  padding:5px;
-}
-
-hr {
-  display:block;
-    border:none;
-    color:white;
-    height:2px;
-    background:black;
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(rgb(0, 114, 209)), to(#fff));
-}
-
-h1 {
-  font-family: 'Courgette', cursive;
-  font-size: 3.5rem;
-  line-height: 2;
-}
-
-h2 {
-  font-family: 'Ubuntu', sans-serif;
-  padding-bottom:50px;
-  font-size: 2.25rem;
-  color: #3282b8;
-}
-
-h3 {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 2.5vw;
-  color: #fff;
-}
-
-h4 {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1.8vw;
-  color: #3498db;
-}
-
-.linkedin {
-  width:7%;
-  padding:5px;
-}
-
-.ofsaa-logo{
-  width:30%;
-  float:left;
-  margin-right:30px;
-  margin-bottom:30px;
-}
-
-.par {
-  width:90%;
-  text-align: left;
-  clear:left;
-}
-
-.par-projects {
-  width:90%;
-  text-align: left;
-  padding-top: 10px;
-}
-
-.qu-logo{
-  width:30%;
-  float:left;
-  margin-right: 30px;
-  position: relative;
-  bottom:30px;
-}
-
-.ref {
-  text-align: right;
-  font-size: 0.5rem;
-  color:#fff;
-  display:flex;
-}
-
-.resume-btn {
-  margin-top:50px;
-  margin-bottom: 20px;
-  margin-left:20px;
-}
-
-.row {
-  width:50%;
-  margin:auto;
-}
-
-.title {
-  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding:150px 20px;
-  color: #fff;
-}
-
-
-.work-description{
-  width:100%;
-}
-
-.work-row{
-  width:50%;
-  margin:auto;
-  text-align:left;
-  line-height: 2;
-}
-
-/* .work-experience, .awards {
-  background-color: #30475e;
-  color:#fff;
-  padding:100px 20px;
-} */
